@@ -1,0 +1,12 @@
+{
+  "name": "atomico",
+  "module": "server.js",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "^0.5.0"
+  },
+  "dependencies": {
+    "atomico": "^1.70.0",
+    "hono": "^2.7.7"
+  }
+}
