@@ -1,4 +1,4 @@
-import { c, html, css, useProp } from "atomico";
+import { c, css, html, useProp } from "atomico";
 
 function component() {
   const [value, setValue] = useProp("value");

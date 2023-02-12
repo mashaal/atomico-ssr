@@ -18,11 +18,12 @@ app.get("/", (c) =>
       }
   </script>
   <script src="./static/component.js" type="module"></script>
-  ${html`<${Component} value=${100}>
+  ${
+    html`<${Component} value=${100}>
     <div>Message from server!</div>
-  </${Component}>`.render()}
-`)
-);
+  </${Component}>`.render()
+  }
+`));
 
 export default {
   port: 3000,
